@@ -1,0 +1,15 @@
+service:
+  name: master_lab
+  versions: 1.0
+spring:
+  application:
+    name: master_lab
+    version: 1.0
+server:
+  port: 8081
+didclassiccalcservice:
+  timeZoneVal: Europe/Moscow
+  scaleBigDecForPrice: 4
+  scaleBigDecForValue: 8
+  currentServName: MASTER_LAB
+  simpleDateFormatStr: yyyy-MM-dd
