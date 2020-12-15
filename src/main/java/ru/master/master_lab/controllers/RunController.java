@@ -32,13 +32,13 @@ public class RunController {
 
   // endregion Init
 
-
   // region тестирование через rest
 
   @PostMapping(value = "/calc_test_rest")
   void callRestTest() {
     byte initor = 1;
     String initor_name = "Igoryasha";
+    System.out.println("Initor: " + initor_name);
     System.out.println(env.toString());
     System.out.println(env.getProperty("time_code"));
     System.out.println(env.getProperty("person.name"));
